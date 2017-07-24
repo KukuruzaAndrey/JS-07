@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+input {
+    line-height: 1.5em;
+    border: none;
+    border-bottom: 2px solid #3ABA60;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+button {
+    width: 500px;
+    height: 40px;
+    margin: 20px;
+    border: 1px solid #107db0;
+    background-color: #3ABA60;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section h1 {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px;
+}
+section > h1 {
+    font-size: 3.5em;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding: 10px;
+}
+li:nth-child(odd) {
+    background: rgba(109, 238, 221, 0.05);
+}
+li:nth-child(even) {
+    background: rgba(238, 155, 107, 0.05);
+}
+.holder {
+    display: flex;
+    justify-content: space-around;
+    align-self: stretch;
+}
+.fighter, .improved-fighter {
+    display: flex;
+    flex-direction: column;
+}
+.fighter *, .improved-fighter *{
+    padding: 10px 20px;
+}
